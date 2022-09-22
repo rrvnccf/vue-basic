@@ -5,6 +5,7 @@
   <Animals/>
   <Text/>
   <Flowers/>
+  <Render/>
 
 </template>
 
@@ -15,6 +16,8 @@ import Client from "../client.vue"
 import Animals from "./views/Animals.vue"
 import Text from "./components/Text.vue"
 import Flowers from "./views/Flowers.vue"
+import Render from "./views/Render.vue"
+
 
 // panggil halaman views dari difolder mana / halaman apa 
 
@@ -26,6 +29,7 @@ export default {
     Animals,
     Text,
     Flowers,
+    Render,
   }
 }
 </script>

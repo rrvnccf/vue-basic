@@ -12,6 +12,7 @@
     <h2 v-for="month in months">
         {{month}}
     </h2>
+    
 
 </template>
 
