@@ -32,7 +32,8 @@
                 this.subject = this.subject + " dan handling"
             },
             haidunia() {
-                alert("hai dunia")
+                this.subject = "render"
+                this.subject = this.subject + " dan render"
             }
         }
     }
