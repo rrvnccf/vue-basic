@@ -18,6 +18,7 @@
   <Flowers/>
   <Render/>
   <Bindings/>
+  <Name/>
 
 </template>
 
@@ -30,7 +31,7 @@ import Text from "./components/Text.vue"
 import Flowers from "./views/Flowers.vue"
 import Render from "./views/Render.vue"
 import Bindings from "./views/Bindings.vue"
-
+import Name from "./views/Name.vue"
 
 // panggil halaman views dari difolder mana / halaman apa 
 
@@ -43,7 +44,8 @@ export default {
     Text,
     Flowers,
     Render,
-    Bindings
+    Bindings,
+    Name
   }
 }
 </script>
