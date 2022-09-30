@@ -13,7 +13,7 @@
         },
         mounted () {
             axios
-                .get('https://1cd5wupiy7.execute-api.us-east-1.amazonaws.com/users/10')
+                .get('https://1cd5wupiy7.execute-api.us-east-1.amazonaws.com/users/7878')
                 .then(response => {console.log(response); })
                 
         },

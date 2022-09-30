@@ -19,6 +19,7 @@
   <Render/>
   <Bindings/>
   <Name/>
+  <Push/>
 
 </template>
 
@@ -32,6 +33,7 @@ import Flowers from "./views/Flowers.vue"
 import Render from "./views/Render.vue"
 import Bindings from "./views/Bindings.vue"
 import Name from "./views/Name.vue"
+import Push from "./views/Push.vue"
 
 // panggil halaman views dari difolder mana / halaman apa 
 
@@ -45,7 +47,8 @@ export default {
     Flowers,
     Render,
     Bindings,
-    Name
+    Name,
+    Push
   }
 }
 </script>
