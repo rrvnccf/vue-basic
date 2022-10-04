@@ -1,6 +1,6 @@
 <template>
-	<h2>Latihan Post</h2>
-	<form @submit.prevent="latihanPost">
+	<h2>Latihan Put</h2>
+	<form @submit.prevent="latihanPut">
 		<div>
 			<label>Nama</label>
 			<input type="text" v-model="name">
@@ -12,7 +12,7 @@
 		<div>
 			<button type="submit">Submit</button>
 		</div>
-		<h2>{{user}}</h2>
+		<h2>nama diubah menjadi {{user}}</h2>
 	</form>
 </template>
 
@@ -27,8 +27,8 @@
 			}
 		},
 		methods: {
-			latihanPost(){
-				axios.post("https://1cd5wupiy7.execute-api.us-east-1.amazonaws.com/users", 
+			latihanPut(){
+				axios.put("https://1cd5wupiy7.execute-api.us-east-1.amazonaws.com/users", 
 				{name: this.name, userId: this.userId})
 
 				.then ((response) => {

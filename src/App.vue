@@ -20,6 +20,8 @@
   <Bindings/>
   <Name/>
   <Push/>
+  <Delete/>
+  <Put/>
 
 </template>
 
@@ -34,6 +36,8 @@ import Render from "./views/Render.vue"
 import Bindings from "./views/Bindings.vue"
 import Name from "./views/Name.vue"
 import Push from "./views/Push.vue"
+import Delete from "./views/Delete.vue"
+import Put from "./views/Put.vue"
 
 // panggil halaman views dari difolder mana / halaman apa 
 
@@ -48,7 +52,9 @@ export default {
     Render,
     Bindings,
     Name,
-    Push
+    Push,
+    Delete,
+    Put
   }
 }
 </script>
